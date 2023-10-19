@@ -1,6 +1,6 @@
 public Integer maxConsecutiveOnes(Integer[] numbers) {
     //code here
-    Integer cMax=0;
+    Integer countMax=0;
 
     Integer count=0; 
 
@@ -10,9 +10,9 @@ public Integer maxConsecutiveOnes(Integer[] numbers) {
 
             count++;
 
-            if(count>cMax){
+            if(count>countMax){
 
-                cMax=count;
+                countMax=count;
 
             }
 
@@ -26,6 +26,6 @@ public Integer maxConsecutiveOnes(Integer[] numbers) {
 
     }
 
-    return cMax;
+    return countMax;
 
 }
