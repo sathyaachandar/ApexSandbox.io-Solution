@@ -26,5 +26,5 @@ public Integer maxConsecutiveOnes(Integer[] numbers) {
 
     return cMax;
 
-
+}
 }
