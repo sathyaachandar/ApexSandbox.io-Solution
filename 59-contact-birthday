@@ -1,0 +1,12 @@
+public Boolean isBirthday(Contact c) {
+    //code here
+    if(c.BirthDate==Today())
+    {
+        return true;
+
+    }
+    else
+    {
+        return false;
+    }
+}
