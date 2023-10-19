@@ -4,4 +4,5 @@ public List<String> fullNames(List<String> firstNames, List<String> lastNames) {
     {
         fullnames[i]=firstNames[i]+lastNames[i];
     }
+    return fullNames;
 }
