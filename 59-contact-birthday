@@ -1,9 +1,9 @@
 public Boolean isBirthday(Contact c) {
     //code here
 Integer m1=(c.BirthDate).Month();
-Integer m2=system.today().Month()
-Integer d1=(c.BirthDate).Day()
-Integer d2=system.today().Day())
+Integer m2=system.today().Month();
+Integer d1=(c.BirthDate).Day();
+Integer d2=system.today().Day();
 
 if( m1==m2 && d1==d2)
 {
