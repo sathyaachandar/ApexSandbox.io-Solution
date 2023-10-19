@@ -1,14 +1,12 @@
 public Boolean isBirthday(Contact c) {
     //code here
 
-if(month(c.BirthDate)==month(System.today()))
-    {
-        if(date(c.BirthDate)==date(System.today()))
-{
+if(c.BirthDate)==System.today())
+   {
     return true;
 }
 
-}
+
 else
 {
     return false;
