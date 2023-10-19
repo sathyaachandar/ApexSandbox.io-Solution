@@ -10,8 +10,9 @@ public void setAccountRating(Account a) {
     {
         set(a.AccountRating=:'Warm');
     }
-    if(a.AnnualRevenue>500,000)
+    else if(a.AnnualRevenue>500,000)
     {
         set(a.AccountRating=:'Hot');
     }
+    return a.AccountRating;
 }
