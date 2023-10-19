@@ -2,7 +2,7 @@ public Boolean isBirthday(Contact c) {
     //code here
 
 
-if(month(c.BirthDate)==System.today()) && day(c.BirthDate)==System.today())
+if(month(c.BirthDate)==month(System.today())) && day(c.BirthDate)==day(System.today()))
    {
     return true;
 }
