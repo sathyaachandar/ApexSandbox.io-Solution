@@ -1,0 +1,12 @@
+public List<Integer> positiveIntegers(List<Integer> numbers) {
+    //coList<Integer> positiveIntegers1=new List<Integer> ();
+    Integer lastNo=numbers.size();
+    for(integer i=0;i<lastno;i++)
+    {
+        if(numbers[i]>0)
+        {
+            positiveIntegers1.add(numbers[i]);
+        }
+    }
+    return  positiveIntegers1;de here
+}
