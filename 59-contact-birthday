@@ -1,14 +1,10 @@
 public Boolean isBirthday(Contact c) {
     //code here
 
-Integer m1=(c.BirthDate).Month();
-Integer m2=system.today().Month();
-Integer m3=(c.BirthDate).Day();
-Integer m4=system.today().Day();
 
-
-if( m1==m2 && m3==m4)
+if( (c.BirthDate).Month() == system.today().Month())
 {
+    if( (c.BirthDate).Day() == system.today().Day()))
    return true;
 }
    
