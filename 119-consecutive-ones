@@ -1,12 +1,17 @@
 public Integer maxConsecutiveOnes(Integer[] numbers) {
     //code here
-    integer no1=0;
+    integer onesCount=0;
+    integer zeroesCount=0;
     for (integer i=1;i<=numbers.size();i++)
     {
         if(numbers[i]!=0)
         {
             no1=+1;
         }
+        else(numbers[i]=0)
+        {
+         zeroesCount=+1;   
+        }
     }
-    return no1;
+    return onesCount;
 }
