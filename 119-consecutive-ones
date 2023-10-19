@@ -1,19 +1,30 @@
 public Integer maxConsecutiveOnes(Integer[] numbers) {
     //code here
-    integer onesCount=0;
-    integer zeroesCount=0;
-    for (integer i=0;i<numbers.size();i++)
-    {
-        if(numbers[i]==1)
-        {
-            zeroesCount++;
-            if(zeroesCount>onesCount>)
-            {onesCount=zeroesCount;}
+    t=0; 
+
+    for(Integer i=0;i<numbers.size();i++){
+
+        if(numbers[i]==1){
+
+            count++;
+
+            if(count>cMax){
+
+                cMax=count;
+
+            }
+
         }
-        else if (numbers[i]==0)
-        {
-         zeroesCount++;   
+
+        else if(numbers[i]==0){
+
+            count=0;
+
         }
+
     }
-    return onesCount;
+
+    return cMax;
+
+
 }
