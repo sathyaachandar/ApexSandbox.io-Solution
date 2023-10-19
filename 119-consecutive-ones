@@ -10,10 +10,10 @@ public Integer maxConsecutiveOnes(Integer[] numbers) {
             if(onesCount>zeroesCount>)
             {zeroesCount=onesCount;}
         }
-        else(numbers[i]==0)
+        else if (numbers[i]==0)
         {
-         zeroesCount++;   
+         onesCount++;   
         }
     }
-    return onesCount;
+    return zeroesCount;
 }
