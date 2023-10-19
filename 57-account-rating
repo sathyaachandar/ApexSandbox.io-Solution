@@ -6,14 +6,14 @@ public void setAccountRating(Account a) {
     {
        a.Rating='Cold';
     }
-    else if (a.AnnualRevenue <= 500,000 && a.AnnualRevenue > 100,000)
+    elseif (a.AnnualRevenue <= 500,000 && a.AnnualRevenue > 100,000)
     {
         a.Rating='Warm';
     }
-    else if (a.AnnualRevenue > 500,000)
+    elseif (a.AnnualRevenue > 500,000)
     {
         a.Rating='Hot';
     }
-    else{
+    else {
          a.Rating=null;    }
 }
