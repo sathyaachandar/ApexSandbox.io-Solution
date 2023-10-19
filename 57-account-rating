@@ -4,15 +4,15 @@ public void setAccountRating(Account a) {
 
     if(a.AnnualRevenue>100,000)
     {
-        set(a.AccountRating=:'Cold');
+        set(a.AccountRating,'Cold');
     }
     else if(a.AnnualRevenue<500,000 && a.AnnualRevenue>100,000)
     {
-        set(a.AccountRating=:'Warm');
+        set(a.AccountRating,'Warm');
     }
     else if(a.AnnualRevenue>500,000)
     {
-        set(a.AccountRating=:'Hot');
+        set(a.AccountRating,'Hot');
     }
     return a.AccountRating;
 }
