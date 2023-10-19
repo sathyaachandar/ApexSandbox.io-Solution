@@ -1,5 +1,6 @@
 public List<String> fullNames(List<String> firstNames, List<String> lastNames) {
     //code here
+List<String> Names =new List<String>();
 
     for(integer i=0;i<firstNames.size();i++)
     {
@@ -7,7 +8,7 @@ public List<String> fullNames(List<String> firstNames, List<String> lastNames) {
 
         
     }
-    return fullNames;
+    return Names;
     
 }
    
