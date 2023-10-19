@@ -15,6 +15,5 @@ public void setAccountRating(Account a) {
         a.Rating='Hot';
     }
     else{
-         a.Rating='Cold';
-    }
+         a.Rating=null;    }
 }
