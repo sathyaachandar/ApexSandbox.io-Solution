@@ -2,17 +2,17 @@ public void setAccountRating(Account a) {
 
     //code here
 
-    if(a.AnnualRevenue>100,000)
+    if(a.AnnualRevenue>=100,000)
     {
-       a.set(Rating,'Cold');
+       a.Rating='Cold';
     }
-    else if(a.AnnualRevenue<500,000 && a.AnnualRevenue>100,000)
+    else if(a.AnnualRevenue=<500,000 && a.AnnualRevenue>100,000)
     {
-         a.set(Rating,'Warm');
+        a.Rating='Warm';
     }
     else if(a.AnnualRevenue>500,000)
     {
-        a.set(Rating,'Hot');
+        a.Rating='Hot';
     }
     
 }
