@@ -1,0 +1,7 @@
+public List<String> fullNames(List<String> firstNames, List<String> lastNames) {
+    //code here
+    for(integer i=0<i<firstNames;i++)
+    {
+        fullnames[i]=firstNames[i]+lastNames[i];
+    }
+}
