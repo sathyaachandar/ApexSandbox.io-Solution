@@ -4,7 +4,7 @@ public void insertAtStart(String cityName, List<String> cities) {
     for(integer i=0;i<cities.size();i++)
     {
         cities.get[i];
-        for(integer j=1;i<i;j++)
+        for(integer j=1;j>i;j++)
         {
             cities[j].add(i);
         }
