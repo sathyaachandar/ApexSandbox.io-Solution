@@ -3,7 +3,7 @@ public List<String> fullNames(List<String> firstNames, List<String> lastNames) {
 
     for(integer i=0;i<firstNames.size();i++)
     {
-        fullnames.add(i,(get.firstNames[i]+get.lastNames[i]));
+        fullnames[i]=get.firstNames[i]+' '+get.lastNames[i];
 
         
     }
