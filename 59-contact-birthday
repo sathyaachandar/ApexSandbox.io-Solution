@@ -5,7 +5,9 @@ public Boolean isBirthday(Contact c) {
 if( (c.BirthDate).Month() == system.today().Month())
 {
     if( (c.BirthDate).Day() == system.today().Day()))
+    {
    return true;
+    }
 }
    
 else
