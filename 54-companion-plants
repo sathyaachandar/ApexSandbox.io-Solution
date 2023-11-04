@@ -1,0 +1,27 @@
+public Boolean companionPlants(String plant1, String plant2) {
+    //code hereboolean isCompanion = false;
+
+    if (plant1.equals('onions') && (plant2.equals('lettuce') || plant2.equals('carrots') || plant2.equals('tomatoes'))) {
+
+        isCompanion = true;
+
+    } else if (plant1.equals('lettuce') && (plant2.equals('onions') || plant2.equals('cucumbers'))) {
+
+        isCompanion = true;
+
+    } else if (plant1.equals('cucumbers') && plant2.equals('lettuce')) {
+
+        isCompanion = true;
+
+    } else if (plant1.equals('carrots') && plant2.equals('onions')) {
+
+        isCompanion = true;
+
+    } else if (plant1.equals('tomatoes') && plant2.equals('onions')) {
+
+        isCompanion = true;
+
+    }
+
+    return isCompanion;
+}
